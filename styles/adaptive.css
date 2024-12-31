@@ -32,6 +32,14 @@
 
 /*768 -1023*/
 @media screen and (max-width: 1023px) {
+    .header .container {
+        justify-content: space-around;
+    }
+
+    .logo {
+        margin-right: unset;
+    }
+
     .menu ul {
         width: 420px;
     }
@@ -151,6 +159,11 @@
 
 /*375 -424*/
 @media screen and (max-width: 424px) {
+    .header .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
     .menu {
         display: none;
     }
